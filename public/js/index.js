@@ -1,3 +1,9 @@
+function AdjustViewerHeight(){
+  var height = $(window).height() - 6;
+  var height_in_px = height + 'px';
+  $('#viewer').css('height', height_in_px);
+}
+
 function ToggleHidden(object){
   $(object).children()[0];
   if($(object).next().css('display')=='none'){
@@ -23,18 +29,22 @@ function PopulateSidebar(items){
   });
 }
 
+function View(val){
+  $('#viewer').attr('src', val);
+}
+
 function LoadSidebar(){
   $.getJSON('pages.json', function(data){
     var items = [];
     $.each(data, function(key, val){
       if(typeof(val)=='string'){
-        items.push('<a href="'+val+'"><li class="sidebar-brand">'+key+'</li></a>');
+        items.push('<li class="sidebar-brand" onclick="View(\''+val+'\')">'+key+'</li>');
       }
       else if(typeof(val)=='object'){
         var item = '<li class="sidebar-brand section-title">'+key+'&nbsp;<i class="fa fa-chevron-down" aria-hidden="true"></i></li>';
         item += '<ul class="sidebar-collapse">';
         $.each(val, function(key, val){
-          item += '<a href="'+val+'"><li class="sidebar-brand">'+key+'</li></a>';
+          item += '<li class="sidebar-brand" onclick="View(\''+val+'\')">'+key+'</li>';
         });
         items.push(item);
       }
@@ -44,6 +54,10 @@ function LoadSidebar(){
 }
 
 $(document).ready(function(){
-  console.log("Hello!");
   LoadSidebar();
+  AdjustViewerHeight();
+});
+
+$(window).resize(function() {
+  AdjustViewerHeight();
 });

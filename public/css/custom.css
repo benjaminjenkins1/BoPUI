@@ -1,5 +1,5 @@
 body{
-  background-color: white;
+  background-color: #F9F4DA;
 }
 #wrapper {
   padding-left: 250px;
@@ -56,6 +56,10 @@ body{
 
 .selected{
   background-color: #617e9b;
+}
+
+#viewer{
+  width: 100%;
 }
 
 @media (max-width:767px) {
