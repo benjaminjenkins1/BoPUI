@@ -1,0 +1,27 @@
+{
+  "Preface":"http://www.people.vcu.edu/~rhammack/BookOfProof/Preface.pdf",
+  "Introduction":"http://www.people.vcu.edu/~rhammack/BookOfProof/Introduction.pdf",
+  "Part I: Fundamentals":{
+    "Sets":"http://www.people.vcu.edu/~rhammack/BookOfProof/Sets.pdf",
+    "Logic":"http://www.people.vcu.edu/~rhammack/BookOfProof/Logic.pdf",
+    "Counting":"http://www.people.vcu.edu/~rhammack/BookOfProof/Counting.pdf"
+  },
+  "Part II: How to Prove Conditional Statements":{
+    "Direct Proof":"http://www.people.vcu.edu/~rhammack/BookOfProof/Direct.pdf",
+    "Contrapositive Proof":"http://www.people.vcu.edu/~rhammack/BookOfProof/Contrapositive.pdf",
+    "Proof by Contradiction":"http://www.people.vcu.edu/~rhammack/BookOfProof/Contradict.pdf"
+  },
+  "Part III: More on Proof":{
+    "Proving Non-Conditional Statements":"http://www.people.vcu.edu/~rhammack/BookOfProof/Other.pdf",
+    "Proofs Involving Sets":"http://www.people.vcu.edu/~rhammack/BookOfProof/SetProofs.pdf",
+    "Disproof":"http://www.people.vcu.edu/~rhammack/BookOfProof/Disproof.pdf",
+    "Mathematical Induction":"http://www.people.vcu.edu/~rhammack/BookOfProof/Induction.pdf"
+  },
+  "Part IV: Relations, Functions and Cardinality":{
+    "Relations":"http://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf",
+    "Functions":"http://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf",
+    "Cardinality":"http://www.people.vcu.edu/~rhammack/BookOfProof/Cardinality.pdf"
+  },
+  "Solutions":"http://www.people.vcu.edu/~rhammack/BookOfProof/Solutions.pdf",
+  "Index":"http://www.people.vcu.edu/~rhammack/BookOfProof/Index.pdf"
+}
