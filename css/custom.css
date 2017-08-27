@@ -1,6 +1,16 @@
 body{
   background-color: #F9F4DA;
 }
+h2{
+  font-size: 0.85em;
+}
+h3{
+  font-size: 0.8em;
+}
+p{
+  font-size: 0.8em;
+}
+
 #wrapper {
   padding-left: 250px;
   transition: all 0.4s ease 0s;
@@ -52,6 +62,11 @@ body{
 }
 .sidebar-collapse li{
   padding-left: 50px;
+}
+
+#sidebar-footer{
+  position: relative;
+  top: 0px;
 }
 
 .selected{

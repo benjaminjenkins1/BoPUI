@@ -4,8 +4,13 @@ function AdjustViewerHeight(){
   $('#viewer').css('height', height_in_px);
 }
 
+function AdjustFooterPos(){
+  var dist = $('#contents-list').outerHeight() + 20;
+  console.log(dist);
+  $('#sidebar-footer').css('top', dist);
+}
+
 function ToggleHidden(object){
-  $(object).children()[0];
   if($(object).next().css('display')=='none'){
     $(object).next().css('display', 'inherit');
     $($(object).children()[0]).removeClass('fa-chevron-down');
@@ -18,6 +23,7 @@ function ToggleHidden(object){
     $($(object).children()[0]).addClass('fa-chevron-down');
     $(object).removeClass('selected');
   }
+  AdjustFooterPos();
 }
 
 function PopulateSidebar(items){
@@ -27,6 +33,7 @@ function PopulateSidebar(items){
   $('.section-title').click(function(){
     ToggleHidden(this);
   });
+  AdjustFooterPos();
 }
 
 function View(val){
@@ -42,7 +49,7 @@ function LoadSidebar(){
       }
       else if(typeof(val)=='object'){
         var item = '<li class="sidebar-brand section-title">'+key+'&nbsp;<i class="fa fa-chevron-down" aria-hidden="true"></i></li>';
-        item += '<ul class="sidebar-collapse">';
+        item += '<ul class="sidebar-collapse hidden">';
         $.each(val, function(key, val){
           item += '<li class="sidebar-brand" onclick="View(\''+val+'\')">'+key+'</li>';
         });
@@ -60,4 +67,5 @@ $(document).ready(function(){
 
 $(window).resize(function() {
   AdjustViewerHeight();
+  AdjustFooterPos();
 });
