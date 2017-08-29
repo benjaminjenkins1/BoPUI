@@ -48,7 +48,7 @@ function CreateNavChild(key, val){
   child_items.push('<ul class="sidebar-collapse hidden">');
   $.each(val, function(key, val){
     if(typeof(val) == 'string'){
-      child_items.push('<li class="sidebar-brand" onclick="View(\''+val+'\')"><i class="fa fa-file-text-o" aria-hidden="true">'+key+'</li>');
+      child_items.push('<li class="sidebar-brand" onclick="View(\''+val+'\')"><i class="fa fa-file-text-o" aria-hidden="true"></i>'+key+'</li>');
     }
     else if(typeof(val) == 'object'){
       child_items.push(CreateNavChild(key, val));
