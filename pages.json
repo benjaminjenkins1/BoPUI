@@ -2,7 +2,7 @@
   "Preface":"https://www.people.vcu.edu/~rhammack/BookOfProof/Preface.pdf",
   "Introduction":"https://www.people.vcu.edu/~rhammack/BookOfProof/Introduction.pdf",
   "Part I: Fundamentals":{
-    "Sets":{
+    "1. Sets":{
       "1.1 Introduction to Sets":"https://www.people.vcu.edu/~rhammack/BookOfProof/Sets.pdf#page=1",
       "1.2 The Cartesian Product":"https://www.people.vcu.edu/~rhammack/BookOfProof/Sets.pdf#page=6",
       "1.3 Subsets":"https://www.people.vcu.edu/~rhammack/BookOfProof/Sets.pdf#page=9",
@@ -14,7 +14,7 @@
       "1.9 Sets that Are Number Systems":"https://www.people.vcu.edu/~rhammack/BookOfProof/Sets.pdf#page=27",
       "1.10 Russell’s Paradox":"https://www.people.vcu.edu/~rhammack/BookOfProof/Sets.pdf#page=29"
     },
-    "Logic":{
+    "2. Logic":{
       "2.1 Statements":"https://www.people.vcu.edu/~rhammack/BookOfProof/Logic.pdf#page=2",
       "2.2 And, Or, Not":"https://www.people.vcu.edu/~rhammack/BookOfProof/Logic.pdf#page=6",
       "2.3 Conditional Statements":"https://www.people.vcu.edu/~rhammack/BookOfProof/Logic.pdf#page=9",
@@ -28,7 +28,7 @@
       "2.11 Logical Inference":"https://www.people.vcu.edu/~rhammack/BookOfProof/Logic.pdf#page=29",
       "2.12 An Important Note":"https://www.people.vcu.edu/~rhammack/BookOfProof/Logic.pdf#page=30"
     },
-    "Counting":{
+    "3. Counting":{
       "3.1 Counting Lists":"https://www.people.vcu.edu/~rhammack/BookOfProof/Counting.pdf#page=1",
       "3.2 Factorials":"https://www.people.vcu.edu/~rhammack/BookOfProof/Counting.pdf#page=8",
       "3.3 Counting Subsets":"https://www.people.vcu.edu/~rhammack/BookOfProof/Counting.pdf#page=11",
@@ -37,19 +37,19 @@
     }
   },
   "Part II: How to Prove Conditional Statements":{
-    "Direct Proof":{
+    "4. Direct Proof":{
       "4.1 Theorems":"https://www.people.vcu.edu/~rhammack/BookOfProof/Direct.pdf#page=1",
       "4.2 Definitions":"https://www.people.vcu.edu/~rhammack/BookOfProof/Direct.pdf#page=3",
       "4.3 Direct Proof":"https://www.people.vcu.edu/~rhammack/BookOfProof/Direct.pdf#page=6",
       "4.4 Using Cases":"https://www.people.vcu.edu/~rhammack/BookOfProof/Direct.pdf#page=12",
       "4.5 Treating Similar Cases":"https://www.people.vcu.edu/~rhammack/BookOfProof/Direct.pdf#page=13"
     },
-    "Contrapositive Proof":{
+    "5. Contrapositive Proof":{
       "5.1 Contrapositive Proof":"https://www.people.vcu.edu/~rhammack/BookOfProof/Contrapositive.pdf#page=1",
       "5.2 Congruence of Integers":"https://www.people.vcu.edu/~rhammack/BookOfProof/Contrapositive.pdf#page=4",
       "5.3 Mathematical Writing":"https://www.people.vcu.edu/~rhammack/BookOfProof/Contrapositive.pdf#page=6"
     },
-    "Proof by Contradiction":{
+    "6. Proof by Contradiction":{
       "6.1 Proving Statements with Contradiction":"https://www.people.vcu.edu/~rhammack/BookOfProof/Contradict.pdf#page=2",
       "6.2 Proving Conditional Statements by Contradiction":"https://www.people.vcu.edu/~rhammack/BookOfProof/Contradict.pdf#page=5",
       "6.3 Combining Techniques":"https://www.people.vcu.edu/~rhammack/BookOfProof/Contradict.pdf#page=6",
@@ -57,30 +57,30 @@
     }
   },
   "Part III: More on Proof":{
-    "Proving Non-Conditional Statements":{
+    "7. Proving Non-Conditional Statements":{
       "7.1 If-and-Only-If Proof":"https://www.people.vcu.edu/~rhammack/BookOfProof/Other.pdf#page=1",
       "7.2 Equivalent Statements":"https://www.people.vcu.edu/~rhammack/BookOfProof/Other.pdf#page=3",
       "7.3 Existence Proofs; Existence and Uniqueness Proofs":"https://www.people.vcu.edu/~rhammack/BookOfProof/Other.pdf#page=4",
       "7.4 Constructive Versus Non-Constructive Proofs":"https://www.people.vcu.edu/~rhammack/BookOfProof/Other.pdf#page=8"
     },
-    "Proofs Involving Sets":{
+    "8. Proofs Involving Sets":{
       "8.1 How to Prove a ∈ A":"https://www.people.vcu.edu/~rhammack/BookOfProof/SetProofs.pdf#page=1",
       "8.2 How to Prove A ⊆ B":"https://www.people.vcu.edu/~rhammack/BookOfProof/SetProofs.pdf#page=3",
       "8.4 Examples: Perfect Numbers":"https://www.people.vcu.edu/~rhammack/BookOfProof/SetProofs.pdf#page=9"
     },
-    "Disproof":{
+    "9. Disproof":{
       "9.1 Disproving Universal Statements: Counterexamples":"https://www.people.vcu.edu/~rhammack/BookOfProof/Disproof.pdf#page=3",
       "9.2 Disproving Existence Statements":"https://www.people.vcu.edu/~rhammack/BookOfProof/Disproof.pdf#page=5",
       "9.3 Disproof by Contradiction":"https://www.people.vcu.edu/~rhammack/BookOfProof/Disproof.pdf#page=7"
     },
-    "Mathematical Induction":{
+    "10. Mathematical Induction":{
       "10.1 Proof by Strong Induction":"https://www.people.vcu.edu/~rhammack/BookOfProof/Induction.pdf#page=8",
       "10.2 Proof by Smallest Counterexample":"https://www.people.vcu.edu/~rhammack/BookOfProof/Induction.pdf#page=12",
       "10.3 Fibonacci Numbers":"https://www.people.vcu.edu/~rhammack/BookOfProof/Induction.pdf#page=14"
     }
   },
   "Part IV: Relations, Functions and Cardinality":{
-    "Relations":{
+    "11. Relations":{
       "11.0 Introduction":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=1",
       "11.1 Properties of Relations":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=5",
       "11.2 Equivalence Relations":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=10",
@@ -88,7 +88,7 @@
       "11.4 The Integers Modulo n":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=17",
       "11.5 Relations Between Sets":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=20"
     },
-    "Functions":{
+    "12. Functions":{
       "12.1 Functions":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=1",
       "12.2 Injective and Surjective Functions":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=6",
       "12.3 The Pigeonhole Principle":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=10",
@@ -96,7 +96,7 @@
       "12.5 Inverse Functions":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=16",
       "12.6 Image and Preimage":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=19"
     },
-    "Cardinality":{
+    "13. Cardinality":{
       "13.1 Sets with Equal Cardinalities":"https://www.people.vcu.edu/~rhammack/BookOfProof/Cardinality.pdf#page=1",
       "13.2 Countable and Uncountable Sets":"https://www.people.vcu.edu/~rhammack/BookOfProof/Cardinality.pdf#page=7",
       "13.3 Comparing Cardinalities":"https://www.people.vcu.edu/~rhammack/BookOfProof/Cardinality.pdf#page=12",
