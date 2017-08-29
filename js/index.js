@@ -5,7 +5,7 @@ function AdjustViewerHeight(){
 }
 
 function AdjustFooterPos(){
-  var dist = $('#contents-list').outerHeight() + 20;
+  var dist = $('#contents-list').outerHeight() + 40;
   $('#sidebar-footer').css('top', dist);
 }
 
