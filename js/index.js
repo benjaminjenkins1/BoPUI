@@ -6,7 +6,6 @@ function AdjustViewerHeight(){
 
 function AdjustFooterPos(){
   var dist = $('#contents-list').outerHeight() + 20;
-  console.log(dist);
   $('#sidebar-footer').css('top', dist);
 }
 
@@ -27,9 +26,11 @@ function ToggleHidden(object){
 }
 
 function PopulateSidebar(items){
+  var nav_items = '';
   for(var i=0; i<items.length; i++){
-    $('#contents-list').html($('#contents-list').html() + items[i]);
+    nav_items += items[i];
   }
+  $('#contents-list').html(nav_items);
   $('.section-title').click(function(){
     ToggleHidden(this);
   });
@@ -37,23 +38,39 @@ function PopulateSidebar(items){
 }
 
 function View(val){
-  $('#viewer').attr('src', val);
+  $('#viewer').replaceWith('<iframe id="viewer" src="'+val+'"></iframe>');
+  AdjustViewerHeight();
+}
+
+function CreateNavChild(key, val){
+  var child_items = [];
+  child_items.push('<li class="sidebar-brand section-title">'+key+'&nbsp;<i class="fa fa-chevron-down" aria-hidden="true"></i></li>');
+  child_items.push('<ul class="sidebar-collapse hidden">');
+  $.each(val, function(key, val){
+    if(typeof(val) == 'string'){
+      child_items.push('<li class="sidebar-brand" onclick="View(\''+val+'\')">'+key+'</li>');
+    }
+    else if(typeof(val) == 'object'){
+      child_items.push(CreateNavChild(key, val));
+    }
+  });
+  child_items.push('</ul>');
+  var child = '';
+  for(var i=0; i<child_items.length; i++){
+    child += child_items[i];
+  }
+  return child;
 }
 
 function LoadSidebar(){
   $.getJSON('pages.json', function(data){
     var items = [];
     $.each(data, function(key, val){
-      if(typeof(val)=='string'){
+      if(typeof(val) == 'string'){
         items.push('<li class="sidebar-brand" onclick="View(\''+val+'\')">'+key+'</li>');
       }
-      else if(typeof(val)=='object'){
-        var item = '<li class="sidebar-brand section-title">'+key+'&nbsp;<i class="fa fa-chevron-down" aria-hidden="true"></i></li>';
-        item += '<ul class="sidebar-collapse hidden">';
-        $.each(val, function(key, val){
-          item += '<li class="sidebar-brand" onclick="View(\''+val+'\')">'+key+'</li>';
-        });
-        items.push(item);
+      else if(typeof(val) == 'object'){
+        items.push(CreateNavChild(key, val));
       }
     });
     PopulateSidebar(items);
