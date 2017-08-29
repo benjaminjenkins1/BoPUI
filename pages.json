@@ -81,25 +81,26 @@
   },
   "Part IV: Relations, Functions and Cardinality":{
     "Relations":{
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=",
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=",
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=",
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=",
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page="
+      "11.0 Introduction":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=1",
+      "11.1 Properties of Relations":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=5",
+      "11.2 Equivalence Relations":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=10",
+      "11.3 Equivalence Classes and Partitions":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=14",
+      "11.4 The Integers Modulo n":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=17",
+      "11.5 Relations Between Sets":"https://www.people.vcu.edu/~rhammack/BookOfProof/Relations.pdf#page=20"
     },
     "Functions":{
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=",
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=",
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=",
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=",
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=",
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page="
+      "12.1 Functions":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=1",
+      "12.2 Injective and Surjective Functions":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=6",
+      "12.3 The Pigeonhole Principle":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=10",
+      "12.4 Composition":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=13",
+      "12.5 Inverse Functions":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=16",
+      "12.6 Image and Preimage":"https://www.people.vcu.edu/~rhammack/BookOfProof/Functions.pdf#page=19"
     },
     "Cardinality":{
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Cardinality.pdf#page=",
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Cardinality.pdf#page=",
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Cardinality.pdf#page=",
-      "":"https://www.people.vcu.edu/~rhammack/BookOfProof/Cardinality.pdf#page="
+      "13.1 Sets with Equal Cardinalities":"https://www.people.vcu.edu/~rhammack/BookOfProof/Cardinality.pdf#page=1",
+      "13.2 Countable and Uncountable Sets":"https://www.people.vcu.edu/~rhammack/BookOfProof/Cardinality.pdf#page=7",
+      "13.3 Comparing Cardinalities":"https://www.people.vcu.edu/~rhammack/BookOfProof/Cardinality.pdf#page=12",
+      "13.4 The Cantor-Bernstein-Schröeder Theorem":"https://www.people.vcu.edu/~rhammack/BookOfProof/Cardinality.pdf#page=16"
     }
   },
   "Solutions":{
