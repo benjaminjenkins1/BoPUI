@@ -48,7 +48,7 @@ function CreateNavChild(key, val){
   child_items.push('<ul class="sidebar-collapse hidden">');
   $.each(val, function(key, val){
     if(typeof(val) == 'string'){
-      child_items.push('<li class="sidebar-brand" onclick="View(\''+val+'\')"><i class="fa fa-file-text-o" aria-hidden="true"></i>'+key+'</li>');
+      child_items.push('<li class="sidebar-brand" onclick="View(\''+val+'\')">X'+key+'</li>');
     }
     else if(typeof(val) == 'object'){
       child_items.push(CreateNavChild(key, val));
@@ -67,7 +67,7 @@ function LoadSidebar(){
     var items = [];
     $.each(data, function(key, val){
       if(typeof(val) == 'string'){
-        items.push('<li class="sidebar-brand" onclick="View(\''+val+'\')"><i class="fa fa-file-text-o" aria-hidden="true"></i>'+key+'</li>');
+        items.push('<li class="sidebar-brand" onclick="View(\''+val+'\')">X'+key+'</li>');
       }
       else if(typeof(val) == 'object'){
         items.push(CreateNavChild(key, val));
