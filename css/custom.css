@@ -104,5 +104,5 @@ p{
 .cover-image{
   width: 200px;
   display: block;
-  margin: 25px auto;
+  margin: 25px auto auto 50px;
 }
