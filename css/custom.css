@@ -17,6 +17,7 @@ p{
 }
 
 #sidebar-wrapper {
+  overflow-x: hidden;
   margin-left: -300px;
   left: 300px;
   width: 300px;
